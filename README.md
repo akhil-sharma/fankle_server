@@ -13,6 +13,11 @@
 
 `url=<url-for-the-database>`
 
+## **HOW DO I RUN IT?**
+### Run the following command
+
+`NODE_ENV=development PORT=3000 pm2 start index.js`
+
 ## **APIs**
 
 - GET `/r`<br> Return the following json object: <br> `{
